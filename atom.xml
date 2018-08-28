@@ -3,11 +3,11 @@
   <title>�ľ��� �Ա��΢Ц</title>
   
   <subtitle>�ľ��� ����ֱǰ</subtitle>
-  <link href="/blogs/atom.xml" rel="self"/>
+  <link href="/atom.xml" rel="self"/>
   
-  <link href="https://junzi100.github.io/blogs/"/>
+  <link href="git@github.com:junzi100/junzi100.github.io.git/"/>
   <updated>2018-08-27T17:36:02.566Z</updated>
-  <id>https://junzi100.github.io/blogs/</id>
+  <id>git@github.com:junzi100/junzi100.github.io.git/</id>
   
   <author>
     <name>�ľ���</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title></title>
-    <link href="https://junzi100.github.io/blogs/2018/08/21/2018-06-05-%E5%89%8D%E7%AB%AF2/"/>
-    <id>https://junzi100.github.io/blogs/2018/08/21/2018-06-05-前端2/</id>
+    <link href="git@github.com:junzi100/junzi100.github.io.git/2018/08/21/2018-06-05-%E5%89%8D%E7%AB%AF2/"/>
+    <id>git@github.com:junzi100/junzi100.github.io.git/2018/08/21/2018-06-05-前端2/</id>
     <published>2018-08-21T09:27:45.134Z</published>
     <updated>2018-08-27T17:36:02.566Z</updated>
     
@@ -39,8 +39,8 @@
   
   <entry>
     <title></title>
-    <link href="https://junzi100.github.io/blogs/2018/08/16/2018-05-01-%E5%89%8D%E7%AB%AF%E5%8A%A0%E6%B2%B9/"/>
-    <id>https://junzi100.github.io/blogs/2018/08/16/2018-05-01-前端加油/</id>
+    <link href="git@github.com:junzi100/junzi100.github.io.git/2018/08/16/2018-05-01-%E5%89%8D%E7%AB%AF%E5%8A%A0%E6%B2%B9/"/>
+    <id>git@github.com:junzi100/junzi100.github.io.git/2018/08/16/2018-05-01-前端加油/</id>
     <published>2018-08-16T06:47:28.065Z</published>
     <updated>2018-08-27T17:36:51.381Z</updated>
     
