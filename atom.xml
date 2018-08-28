@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>�ľ��� �Ա��΢Ц</title>
+  <title>夏君子 学编程</title>
   
-  <subtitle>�ľ��� ����ֱǰ</subtitle>
+  <subtitle>夏君子 微笑着 学编程</subtitle>
   <link href="junzi100.github.io/atom.xml" rel="self"/>
   
   <link href="https://junzi100.github.io/"/>
@@ -10,7 +10,7 @@
   <id>https://junzi100.github.io/</id>
   
   <author>
-    <name>�ľ���</name>
+    <name>夏君子</name>
     
   </author>
   
