@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Hexo</title>
+  <title>�ľ��� �Ա��΢Ц</title>
   
+  <subtitle>�ľ��� ����ֱǰ</subtitle>
+  <link href="/junzi100.github.io/atom.xml" rel="self"/>
   
-  <link href="/atom.xml" rel="self"/>
-  
-  <link href="http://yoursite.com/"/>
-  <updated>2018-08-16T08:15:16.169Z</updated>
-  <id>http://yoursite.com/</id>
+  <link href="http://junzi100.github.io/"/>
+  <updated>2018-08-27T17:36:02.566Z</updated>
+  <id>http://junzi100.github.io/</id>
   
   <author>
-    <name>John Doe</name>
+    <name>�ľ���</name>
     
   </author>
   
@@ -18,10 +18,31 @@
   
   <entry>
     <title></title>
-    <link href="http://yoursite.com/2018/08/16/2018-05-01-%E5%89%8D%E7%AB%AF%E5%8A%A0%E6%B2%B9/"/>
-    <id>http://yoursite.com/2018/08/16/2018-05-01-前端加油/</id>
+    <link href="http://junzi100.github.io/2018/08/21/2018-06-05-%E5%89%8D%E7%AB%AF2/"/>
+    <id>http://junzi100.github.io/2018/08/21/2018-06-05-前端2/</id>
+    <published>2018-08-21T09:27:45.134Z</published>
+    <updated>2018-08-27T17:36:02.566Z</updated>
+    
+    <content type="html"><![CDATA[<hr><h2 id="DIV-CSS学习笔记小结"><a href="#DIV-CSS学习笔记小结" class="headerlink" title="DIV+CSS学习笔记小结"></a>DIV+CSS学习笔记小结</h2><p>“title”: “前端小记”,<br>“date”: “2018/06/05 22:10:45”<br>;;;</p><p>1.语义化HTML就是根据内容结构，选择合适的标签，便于阅读和写出更优雅的代码的同时让浏览器更好地解析。<br>div：把标签中的内容作为一个块儿来对待(division)。单独占据一行 是一个容器级标签。</p><p>2.盒类型display  span  a元素属于 inline类型  div p  元素属于block类型。</p><a id="more"></a><p>3.每一行只有一个block类型元素，但可以并列多inline类型的元素，假如把div元素变成inline类型的元素，span变成block类型的元素 那么div元素和div元素并列，span元素和span一个一行。 </p><p>Inline-block类型盒子属于block类型盒的一种，但是在显示时它具有inline类型盒特点。</p><p>4.Li元素是block类型下的listitem类型，如果要li元素并列显示，用float属性或者inline-block。声明：ul的儿子，只能是li。但是li是一个容器级标签，li里面什么都能放，甚至可以再放一个ul。</p><p> 5.行高、字号，一般都是偶数，可以成比例<br>span是一个文本级的标签只能放置文字、图片、表单元素</p><p>类上样式，id上行为。class属性交给css使用，id属性交给js使用</p><p>6.标签选择器针对的是页面上的一类标签。<br>ID选择器是只针对特定的标签(一个)，ID是此标签在此页面上的唯一标识。<br>类选择器可以被多种标签使用。通配符*：匹配任何标签</p><p>7.span标签在标准流中，是不能设置宽高的（因为是行内元素）。但是，一旦设置为浮动之后，即使不转成块级元素，也能够设置宽高了。一旦一个元素浮动将能并排，能设置宽高了浮动的元素互相贴靠。</p><p>如果一个元素要浮动，那么它的祖先元素一定要有高度。有高度的盒子，才能关住浮动。</p><p>margin这个属性，本质上描述的是兄弟和兄弟之间的距离；最好不要用这个marign表达父子之间的距离、</p><p>8.相对定位：让元素相对于自己原来的位置，进行位置调整（可用于盒子的位置微调）。不脱标，老家留坑，别人不会把它的位置挤走。相对定位的真实位置还在老家，只不过影子出去了，可以到处飘。<br>相对定位有坑，所以如果需要做一般不用于做“压盖”效果（把一个div放到另一个div之上）。页面中，效果极小。作用：微调元素做绝对定位的参考，子绝父相定位left：盒子右移PS：负数表示相反的方向。</p><p>“子绝父相”这样可以保证父亲没有脱标，儿子脱标在父亲的范围里面移动。<br>父亲浮动，设置相对定位（零偏移），然后让儿子绝对定位一定的距离。</p><p>9.display:none  隐藏元素，布局中不给它分配空间，从来不存在。<br>visibility:hidden  隐藏元素，但在布局中仍保留原来空间</p><p>清除浮动可以理解为打破横向排列。clear: none、left、rightboth<br>只影响使用清除的元素本身，不影响其他元素</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;hr&gt;
+&lt;h2 id=&quot;DIV-CSS学习笔记小结&quot;&gt;&lt;a href=&quot;#DIV-CSS学习笔记小结&quot; class=&quot;headerlink&quot; title=&quot;DIV+CSS学习笔记小结&quot;&gt;&lt;/a&gt;DIV+CSS学习笔记小结&lt;/h2&gt;&lt;p&gt;“title”: “前端小记”,&lt;br&gt;“date”: “2018/06/05 22:10:45”&lt;br&gt;;;;&lt;/p&gt;
+&lt;p&gt;1.语义化HTML就是根据内容结构，选择合适的标签，便于阅读和写出更优雅的代码的同时让浏览器更好地解析。&lt;br&gt;div：把标签中的内容作为一个块儿来对待(division)。单独占据一行 是一个容器级标签。&lt;/p&gt;
+&lt;p&gt;2.盒类型display  span  a元素属于 inline类型  div p  元素属于block类型。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title></title>
+    <link href="http://junzi100.github.io/2018/08/16/2018-05-01-%E5%89%8D%E7%AB%AF%E5%8A%A0%E6%B2%B9/"/>
+    <id>http://junzi100.github.io/2018/08/16/2018-05-01-前端加油/</id>
     <published>2018-08-16T06:47:28.065Z</published>
-    <updated>2018-08-16T08:15:16.169Z</updated>
+    <updated>2018-08-27T17:36:51.381Z</updated>
     
     <content type="html"><![CDATA[<hr><h2 id="为什么选择做前端"><a href="#为什么选择做前端" class="headerlink" title="为什么选择做前端"></a>为什么选择做前端</h2><p>“title”: “前端小记”,<br>“date”: “2018/05/01 20:41:25”<br>;;;</p><p>##缘起那个夏天##<br>Welcome to my world.事出必有因，有因才有果。第一次见识所谓的代码还是在大学时候，看到隔壁的兄弟真正埋头敲打着键盘，屏幕上输出一长串字符，我很好奇，听说是什么C语言，什么鬼？然后听他给我讲了一点点又继续敲起来了，那声音记忆犹新，虽然当时有计算机课程，但是，你懂得。后来有一次去图书馆偶然的翻阅了一下计算机的什么语言之类的书，真心看不懂，后来，就没有后来了。。。</p><h2 id="毕业以后"><a href="#毕业以后" class="headerlink" title="毕业以后"></a>毕业以后</h2><p>做运营打杂的工作，也喜欢抽点时间学习一下，不记得是哪一天开始，和室友一起学起了python语言，学了一些基础的主要是为了爬虫，先是爬一些网站上面的妹子，哈哈哈，真没出息。不过当时的学习动力不是很强烈，唉。。。那段时间最难忘的好像是第一次敲出hello world，有一种特别的情绪在里边。好久好久。</p><h2 id="现在和未来"><a href="#现在和未来" class="headerlink" title="现在和未来"></a>现在和未来</h2><p>我认真思考过好长一段时间，性格，兴趣，职业测评，好友们建议，对前端的一步步了解，也许还有看过那么多书籍之后的彻底觉醒，于是乎，我在某一天的清晨，面向窗外，当然窗外是墙，哈哈哈，向全世界宣布，我要自学前端，做个技术人。慢慢的，通过慕课网和知乎等相关平台的自学，阅读HTML，CSS相关书籍，特别提出JavaScript权威指南非常感谢，当然还有高程设计等等等等，不一一列举了，HTML、CSS、JavaScript这是前端最最基础的，必须深入多次反复学习，网上有很多很好的经验之谈，以后再细说。</p><h2 id="前端啊前端"><a href="#前端啊前端" class="headerlink" title="前端啊前端"></a>前端啊前端</h2><p>现在的前端不仅仅是做静态页面，当下的前端之强大，在 V8 引擎和众多框架库的加持下，涵盖服务端（node.js）、动态页面（vue &amp; react）、APP（weex &amp; react native）、桌面应用（electron）、游戏、VR 等等，前端对我来说有广阔的天地等着我，进步空间十分巨大哟。</p><h1 id="选择"><a href="#选择" class="headerlink" title="选择"></a>选择</h1><p>现在，找到自己喜欢的前端方向，热爱是最强大的力量，我很幸运，就这样一往无前的学习下去吧。。。<br><a id="more"></a></p>]]></content>
     
@@ -34,27 +55,6 @@
 &lt;h2 id=&quot;现在和未来&quot;&gt;&lt;a href=&quot;#现在和未来&quot; class=&quot;headerlink&quot; title=&quot;现在和未来&quot;&gt;&lt;/a&gt;现在和未来&lt;/h2&gt;&lt;p&gt;我认真思考过好长一段时间，性格，兴趣，职业测评，好友们建议，对前端的一步步了解，也许还有看过那么多书籍之后的彻底觉醒，于是乎，我在某一天的清晨，面向窗外，当然窗外是墙，哈哈哈，向全世界宣布，我要自学前端，做个技术人。慢慢的，通过慕课网和知乎等相关平台的自学，阅读HTML，CSS相关书籍，特别提出JavaScript权威指南非常感谢，当然还有高程设计等等等等，不一一列举了，HTML、CSS、JavaScript这是前端最最基础的，必须深入多次反复学习，网上有很多很好的经验之谈，以后再细说。&lt;/p&gt;
 &lt;h2 id=&quot;前端啊前端&quot;&gt;&lt;a href=&quot;#前端啊前端&quot; class=&quot;headerlink&quot; title=&quot;前端啊前端&quot;&gt;&lt;/a&gt;前端啊前端&lt;/h2&gt;&lt;p&gt;现在的前端不仅仅是做静态页面，当下的前端之强大，在 V8 引擎和众多框架库的加持下，涵盖服务端（node.js）、动态页面（vue &amp;amp; react）、APP（weex &amp;amp; react native）、桌面应用（electron）、游戏、VR 等等，前端对我来说有广阔的天地等着我，进步空间十分巨大哟。&lt;/p&gt;
 &lt;h1 id=&quot;选择&quot;&gt;&lt;a href=&quot;#选择&quot; class=&quot;headerlink&quot; title=&quot;选择&quot;&gt;&lt;/a&gt;选择&lt;/h1&gt;&lt;p&gt;现在，找到自己喜欢的前端方向，热爱是最强大的力量，我很幸运，就这样一往无前的学习下去吧。。。&lt;br&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="http://yoursite.com/2018/08/16/hello-world/"/>
-    <id>http://yoursite.com/2018/08/16/hello-world/</id>
-    <published>2018-08-16T00:44:15.450Z</published>
-    <updated>2018-08-16T00:44:15.450Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">"My New Post"</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/deployment.html" target="_blank" rel="noopener">Deployment</a></p>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.
-      
     
     </summary>
     
